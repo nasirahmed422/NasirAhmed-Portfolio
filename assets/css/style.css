@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 2px;
+  padding: 2px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url("../images/backgroundPic.jpg");
+  background-size: cover;
+}
+
+img{
+  max-width: 250px;
+  max-height: 250px
+}
+
+header {
+  padding: 20px 35px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+h1 {
+  font-weight: bold;
+  background-color: teal;
+  margin: 4px;
+  padding: 5px 5px 0px 20px;
+  font-size: 36px;
+  color: midnightblue;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-weight: bold;
+  color: midnightblue;
+}
+
+header a {
+  text-decoration: underline;
+  color: teal;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+.welcome {
+  background-image: url('../images/welcome-background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-attachment: fixed;
+  display:block;
+  width:100%;
+}
+
+.welcome  h1{
+  font-size: 24px;
+}
+
+.welcome img {
+  width: 35%;
+  margin: 3.5%;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+
+#about-me, #work, #contact-me {
+  display: flex;
+  background-color: aliceblue;
+}
+
+#about-me h2, #work h2, #contact-me h2 {
+  border-right: solid;
+  margin-left: 5%;
+  margin-top: 1%;
+  width: 10%;
+  text-align: right;
+  padding-right: 2%;
+}
+
+.secondary-container {
+  display: flex;
+}
+
+.project {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#contact-me {
+  display: flex;
+}
+
+#contact-me ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
