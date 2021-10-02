@@ -1,79 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Nas's Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <h1>Nasir Ahmed</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about-me">About Me</a>
-          </li>
-          <li>
-            <a href="#work">Projects</a>
-          </li>
-          <li>
-            <a href="#contact-me">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section class="welcome">
-      <img src="./assets/images/nasPic.png" alt="Nasir Ahmed's profile picture." />
-      <h1>Hello! Welcome to my portfolio page. Here you will find information of my most recent web development projects and work experience.</h1>
-    </section>
-    <section id="about-me">
-      <h2>About Me</h2>
-      <div class="secondary-container">
-        <p class="container-info">
-          Objective: I am searching for a position as a web developer to help create and design high quality web applications, as well as showcase my skills with modern web technologies.<br>
-          Current Role: Software QA Lead<br>
-          Certifications: ISTQB CTFL, CSM<br>
-          Technologies: C#, HTML, CSS, Javascript, SQL Server<br>
-          Education: BA in Mathematics @ Baruch College<br>
-        </p>
-      </div>
-    </section>
-    <section id="work">
-      <h2>Work</h2>
-      <div class="secondary-container">
-        <article class="project">
-          <img src="./assets/images/run-buddy.jpg" alt="Run Buddy" />
-          <div>
-            <h4>Run Buddy</h4>
-            <p>HTML, CSS</p>
-          </div>
-        </article>
-        <article class="project">
-          <img src="./assets/images/robot-gladiator.jpg" alt="Robot Gladiator" />
-          <div>
-            <h4>Robot Gladiator</h4>
-            <p>JavaScript</p>
-          </div>
-        </article>
-        <article class="project">
-          <img src="./assets/images/random-pw-generator.jpg" alt="Random Password Generator" />
-          <div>
-            <h4>Random Password Generator</h4>
-            <p>JavaScript</p>
-          </div>
-        </article>
-        <!-- Making this a placeholder for future work <article></article> -->
-      </div>
-    </section>
-    <section id="contact-me">
-      <h2>Contact Me</h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Nas's Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <h1>Nasir Ahmed</h1>
+    <nav>
       <ul>
-        <li>(1) 646 595 8504</li>
-        <li>nasirahmed422@gmail.com</li>
-        <li>Github</li>
-        <li>Spotify</li>
+        <li>
+          <a href="#about-me">About Me</a>
+        </li>
+        <li>
+          <a href="#work">Projects</a>
+        </li>
+        <li>
+          <a href="#contact-me">Contact Me</a>
+        </li>
       </ul>
-    </section>
-  </body>
+    </nav>
+  </header>
+  <section class="welcome">
+    <img src="./assets/images/nasPic.png" alt="Nasir Ahmed's profile picture." />
+    <h1>Hello! Welcome to my portfolio page. Here you will find information of my most recent web development projects
+      and work experience.</h1>
+  </section>
+  <section id="about-me">
+    <h2>About Me</h2>
+    <div class="secondary-container">
+      <p class="container-info">
+        Objective: I am searching for a position as a web developer to help create and design high quality web
+        applications, as well as showcase my skills with modern web technologies.<br>
+        Current Role: Software QA Lead<br>
+        Certifications: ISTQB CTFL, CSM<br>
+        Technologies: C#, HTML, CSS, Javascript, SQL Server<br>
+        Education: BA in Mathematics @ Baruch College<br>
+      </p>
+    </div>
+  </section>
+  <section id="work">
+    <h2>Work</h2>
+    <div class="secondary-container row">
+      <article class="project col-md-3">
+        <a href="https://seifenan.github.io/Project-1-Bored-Genie/"><img src="./assets/images/run-buddy.jpg" alt="Bored Genie" /></a>>
+        <div>
+          <h4>Bored Genie</h4>
+          <p class="longText">HTML, CSS, JavaScript, PureCSS, FontAwesome, JQuery, GIPHY API, AudioDB API, OpenTDB API</p>
+        </div>
+      </article>
+      <article class="project col-md-3">
+        <img src="./assets/images/run-buddy.jpg" alt="Run Buddy" />
+        <div>
+          <h4>Run Buddy</h4>
+          <p>HTML, CSS</p>
+        </div>
+      </article>
+      <article class="project col-md-3">
+        <img src="./assets/images/robot-gladiator.jpg" alt="Robot Gladiator" />
+        <div>
+          <h4>Robot Gladiator</h4>
+          <p>JavaScript</p>
+        </div>
+      </article>
+      <article class="project col-md-3">
+        <img src="./assets/images/random-pw-generator.jpg" alt="Random Password Generator" />
+        <div>
+          <h4>Random Password Generator</h4>
+          <p>JavaScript</p>
+        </div>
+      </article>
+      <!-- Making this a placeholder for future work <article></article> -->
+    </div>
+  </section>
+  <section id="contact-me">
+    <h2>Contact Me</h2>
+    <ul>
+      <li>(1) 646 595 8504</li>
+      <li>nasirahmed422@gmail.com</li>
+      <li>Github</li>
+      <li>Spotify</li>
+    </ul>
+  </section>
+</body>
+
 </html>
